@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.samples</groupId>
-	<artifactId>spring-mvc-showcase-gh</artifactId>
-	<name>spring-mvc-showcase-gh</name>
+	<artifactId>spring-mvc-showcase-gl</artifactId>
+	<name>spring-mvc-showcase-gl</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 
@@ -13,7 +13,7 @@
 		<org.springframework-version>5.0.4.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.8.1</org.aspectj-version>
 
-		<sonar.projectKey>spring-mvc-showcase-gh</sonar.projectKey>
+		<sonar.projectKey>spring-mvc-showcase-gl</sonar.projectKey>
 		<sonar.organization>thoughtservice</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
