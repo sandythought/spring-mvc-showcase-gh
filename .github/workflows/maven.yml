@@ -17,4 +17,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_LOGIN }}
-        run: mvn verify sonar:sonar -Dname=spring-mvc-showcase-gh -Dsonar.login=${{ secrets.SONAR_LOGIN }}
+        run: mvn verify sonar:sonar -Dvcs.name=gh -Dsonar.login=${{ secrets.SONAR_LOGIN }}

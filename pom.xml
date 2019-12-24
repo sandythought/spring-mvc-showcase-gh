@@ -3,8 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework.samples</groupId>
-    <artifactId>${name}</artifactId>
-    <name>${name}</name>
+    <artifactId>spring-mvc-showcase-${vcs.name}</artifactId>
+    <!--suppress UnresolvedMavenProperty -->
+    <name>spring-mvc-showcase-${vcs.name}</name>
     <packaging>war</packaging>
     <version>1.0.0-BUILD-SNAPSHOT</version>
 
@@ -13,7 +14,8 @@
         <org.springframework-version>5.0.4.RELEASE</org.springframework-version>
         <org.aspectj-version>1.8.1</org.aspectj-version>
 
-        <sonar.projectKey>${project.name}</sonar.projectKey>
+        <!--suppress UnresolvedMavenProperty -->
+        <sonar.projectKey>spring-mvc-showcase-${vcs.name}</sonar.projectKey>
         <sonar.organization>thoughtservice</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
