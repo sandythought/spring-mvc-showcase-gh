@@ -1,0 +1,9 @@
+image: maven:3.6.1
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - maven
+        script: # Modify the commands below to build your repository.
+          - mvn -B verify sonar:sonar -Dvcs.name=bb -Dsonar.login=$SONAR_LOGIN # -B batch mode makes Maven less verbose
