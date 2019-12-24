@@ -12,4 +12,4 @@ cache:
 test:
   stage: test
   script:
-    - mvn -X verify sonar:sonar -Dvcs.name=gl -Dsonar.login=$SONAR_LOGIN
+    - mvn verify sonar:sonar -Dvcs.name=gl -Dsonar.login=$SONAR_LOGIN
