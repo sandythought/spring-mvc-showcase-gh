@@ -9,7 +9,7 @@ cache:
     - .m2/repository/
     - target/
 
-verify:
-  stage: verify
+test:
+  stage: test
   script:
     - mvn verify sonar:sonar -Dsonar.login=$SONAR_LOGIN
