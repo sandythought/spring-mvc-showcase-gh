@@ -12,4 +12,4 @@ cache:
 test:
   stage: test
   script:
-    - mvn -e verify sonar:sonar -Dname=spring-mvc-showcase-gl -Dsonar.login=$SONAR_LOGIN
+    - mvn -X verify sonar:sonar -Dname=spring-mvc-showcase-gl -Dsonar.login=$SONAR_LOGIN
